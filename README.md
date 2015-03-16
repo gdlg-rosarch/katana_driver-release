@@ -1,1 +1,32 @@
+## katana_driver (hydro) - 1.0.0-0
+
+The packages in the `katana_driver` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro katana_driver --edit` on `Mon, 16 Mar 2015 15:42:00 -0000`
+
+These packages were released:
+- `katana`
+- `katana_arm_gazebo`
+- `katana_description`
+- `katana_driver`
+- `katana_gazebo_plugins`
+- `katana_moveit_ikfast_plugin`
+- `katana_msgs`
+- `katana_teleop`
+- `katana_tutorials`
+- `kni`
+
+Version of package(s) in repository `katana_driver`:
+- upstream repository: https://github.com/uos/katana_driver.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.7`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.1`
+- vcstools version: `0.1.36`
+
+
 # katana_driver-release
