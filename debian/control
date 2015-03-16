@@ -1,0 +1,12 @@
+Source: ros-indigo-katana-moveit-ikfast-plugin
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uos.de>
+Build-Depends: debhelper (>= 9.0.0), liblapack-dev, ros-indigo-catkin, ros-indigo-moveit-core, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-tf-conversions
+Homepage: http://wiki.ros.org/katana_moveit_ikfast_plugin
+Standards-Version: 3.9.2
+
+Package: ros-indigo-katana-moveit-ikfast-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liblapack-dev, ros-indigo-moveit-core, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-tf-conversions
+Description: The katana_moveit_ikfast_plugin package
