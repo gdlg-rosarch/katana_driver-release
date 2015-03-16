@@ -1,0 +1,12 @@
+Source: ros-indigo-katana-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-control-msgs, ros-indigo-control-toolbox, ros-indigo-gazebo-ros, ros-indigo-katana-msgs, ros-indigo-sensor-msgs, ros-indigo-trajectory-msgs
+Homepage: http://ros.org/wiki/katana_gazebo_plugins
+Standards-Version: 3.9.2
+
+Package: ros-indigo-katana-gazebo-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-control-msgs, ros-indigo-control-toolbox, ros-indigo-gazebo-ros, ros-indigo-katana-msgs, ros-indigo-sensor-msgs, ros-indigo-trajectory-msgs
+Description: This package provides Gazebo plugins to simulate the Katana arm.
