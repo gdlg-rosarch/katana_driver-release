@@ -1,0 +1,8 @@
+ros-indigo-katana-driver (1.0.0-0saucy) saucy; urgency=high
+
+  * Initial release to Debian packages
+  * Contributors: Martin Günther, Henning Deeken, Jochen Sprickerhof, Benjamin Reiner, Michael Görner, André Potenza, Frederik Hegger
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Sun, 15 Mar 2015 23:00:00 -0000
+
+
