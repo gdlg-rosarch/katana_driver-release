@@ -1,0 +1,15 @@
+ros-indigo-kni (1.0.1-0saucy) saucy; urgency=high
+
+  * kni: add missing boost dependency in package.xml
+  * Contributors: Martin Günther
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Mon, 16 Mar 2015 23:00:00 -0000
+
+ros-indigo-kni (1.0.0-0saucy) saucy; urgency=high
+
+  * Initial release to Debian packages
+  * Contributors: Martin Günther, Henning Deeken, Jochen Sprickerhof, Michael Görner
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Sun, 15 Mar 2015 23:00:00 -0000
+
+
