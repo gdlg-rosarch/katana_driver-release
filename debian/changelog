@@ -1,0 +1,14 @@
+ros-indigo-katana-arm-gazebo (1.0.1-0trusty) trusty; urgency=high
+
+
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Mon, 16 Mar 2015 23:00:00 -0000
+
+ros-indigo-katana-arm-gazebo (1.0.0-0trusty) trusty; urgency=high
+
+  * Initial release to Debian packages
+  * Contributors: Martin Günther, Henning Deeken, Jochen Sprickerhof, Michael Görner, André Potenza, Karl Glatz
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Sun, 15 Mar 2015 23:00:00 -0000
+
+
