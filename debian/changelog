@@ -1,8 +1,0 @@
-ros-hydro-katana-gazebo-plugins (1.0.0-0quantal) quantal; urgency=high
-
-  * Initial release to Debian packages
-  * Contributors: Martin Günther, Henning Deeken, Jochen Sprickerhof, Michael Görner, André Potenza, Karl Glatz
-
- -- Martin Günther <mguenthe@uni-osnabrueck.de>  Sun, 15 Mar 2015 23:00:00 -0000
-
-
