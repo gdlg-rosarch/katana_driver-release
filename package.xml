@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>kni</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>
      This package provides the third-party KNI (Katana Native Interface) library for Katana
      robot arms.
@@ -15,4 +15,8 @@
   <url type="website">http://ros.org/wiki/kni</url>
 
   <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>boost</build_depend>
+
+  <run_depend>boost</run_depend>
 </package>
