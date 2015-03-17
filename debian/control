@@ -1,0 +1,12 @@
+Source: ros-hydro-katana-driver
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://ros.org/wiki/katana_driver
+Standards-Version: 3.9.2
+
+Package: ros-hydro-katana-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-katana, ros-hydro-katana-arm-gazebo, ros-hydro-katana-description, ros-hydro-katana-gazebo-plugins, ros-hydro-katana-moveit-ikfast-plugin, ros-hydro-katana-msgs, ros-hydro-katana-teleop, ros-hydro-katana-tutorials, ros-hydro-kni
+Description: This stack contains all descriptions, drivers and bringup facilities for Neuronics Katana 450 arm.
