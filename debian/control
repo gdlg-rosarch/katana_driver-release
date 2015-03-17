@@ -1,0 +1,12 @@
+Source: ros-hydro-katana-msgs
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-sensor-msgs
+Homepage: http://ros.org/wiki/katana_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-katana-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib-msgs, ros-hydro-message-runtime, ros-hydro-sensor-msgs
+Description: This package contains messages specific to the Neuronics Katana arm.
