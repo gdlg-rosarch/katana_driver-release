@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>katana_description</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>
     This package contains an URDF description of the Katana arm and all supporting mesh files.
   </description>
@@ -16,8 +16,6 @@
   <build_depend>transmission_interface</build_depend>
 
   <run_depend>urdf</run_depend>
-  <run_depend>convex_decomposition</run_depend>
-  <run_depend>ivcon</run_depend>
   <run_depend>transmission_interface</run_depend>
 
   <buildtool_depend>catkin</buildtool_depend>
