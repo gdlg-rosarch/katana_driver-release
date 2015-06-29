@@ -1,0 +1,12 @@
+Source: ros-hydro-katana-arm-gazebo
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-catkin, ros-hydro-controller-manager, ros-hydro-controller-manager-msgs, ros-hydro-gazebo-ros, ros-hydro-joint-trajectory-controller, ros-hydro-katana-description, ros-hydro-katana-gazebo-plugins, ros-hydro-robot-state-publisher, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-urdf, ros-hydro-xacro
+Homepage: http://ros.org/wiki/katana_arm_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-hydro-katana-arm-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-controller-manager, ros-hydro-controller-manager-msgs, ros-hydro-gazebo-ros, ros-hydro-joint-trajectory-controller, ros-hydro-katana-description, ros-hydro-katana-gazebo-plugins, ros-hydro-robot-state-publisher, ros-hydro-roscpp, ros-hydro-std-msgs, ros-hydro-urdf, ros-hydro-xacro
+Description: This package starts a Neuronics Katana robot arm in the Gazebo simulation environment. It is modeled after the pr2_arm_gazebo package by John Hsu.
