@@ -2,6 +2,11 @@
 Changelog for package katana_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2015-06-29)
+------------------
+* remove dependencies to non-existing cmake targets
+* Contributors: Michael Görner
+
 1.0.2 (2015-05-06)
 ------------------
 
