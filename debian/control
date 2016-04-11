@@ -1,0 +1,12 @@
+Source: ros-jade-katana-teleop
+Section: misc
+Priority: extra
+Maintainer: Henning Deeken <hdeeken@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-actionlib, ros-jade-catkin, ros-jade-control-msgs, ros-jade-katana-msgs, ros-jade-roscpp, ros-jade-sensor-msgs
+Homepage: http://ros.org/wiki/katana_teleop
+Standards-Version: 3.9.2
+
+Package: ros-jade-katana-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-actionlib, ros-jade-control-msgs, ros-jade-katana-msgs, ros-jade-roscpp, ros-jade-sensor-msgs
+Description: This package provides tele-operation nodes to control the Neuronics Katana 450 arm via keyboard commands or with a playstation 3 controller.
