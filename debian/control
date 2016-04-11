@@ -1,0 +1,13 @@
+Source: ros-indigo-katana-arm-gazebo
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-controller-manager, ros-indigo-controller-manager-msgs, ros-indigo-gazebo-ros, ros-indigo-joint-trajectory-controller, ros-indigo-katana-description, ros-indigo-katana-gazebo-plugins, ros-indigo-robot-state-publisher, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-urdf, ros-indigo-xacro
+Homepage: http://ros.org/wiki/katana_arm_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-indigo-katana-arm-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-controller-manager, ros-indigo-controller-manager-msgs, ros-indigo-gazebo-ros, ros-indigo-joint-trajectory-controller, ros-indigo-katana-description, ros-indigo-katana-gazebo-plugins, ros-indigo-robot-state-publisher, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-urdf, ros-indigo-xacro
+Description: This package starts a Neuronics Katana robot arm in the Gazebo simulation environment.
+ It is modeled after the pr2_arm_gazebo package by John Hsu.
