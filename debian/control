@@ -1,0 +1,12 @@
+Source: ros-indigo-katana-teleop
+Section: misc
+Priority: extra
+Maintainer: Henning Deeken <hdeeken@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-control-msgs, ros-indigo-katana-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Homepage: http://ros.org/wiki/katana_teleop
+Standards-Version: 3.9.2
+
+Package: ros-indigo-katana-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-control-msgs, ros-indigo-katana-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs
+Description: This package provides tele-operation nodes to control the Neuronics Katana 450 arm via keyboard commands or with a playstation 3 controller.
