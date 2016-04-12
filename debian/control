@@ -1,0 +1,13 @@
+Source: ros-indigo-katana
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), libarmadillo-dev, ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-control-msgs, ros-indigo-geometry-msgs, ros-indigo-katana-msgs, ros-indigo-kni, ros-indigo-moveit-msgs, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-sensor-msgs, ros-indigo-std-srvs, ros-indigo-tf, ros-indigo-trajectory-msgs, ros-indigo-urdf
+Homepage: http://ros.org/wiki/katana
+Standards-Version: 3.9.2
+
+Package: ros-indigo-katana
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libarmadillo-dev, ros-indigo-actionlib, ros-indigo-control-msgs, ros-indigo-geometry-msgs, ros-indigo-katana-msgs, ros-indigo-kni, ros-indigo-moveit-msgs, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-sensor-msgs, ros-indigo-std-srvs, ros-indigo-tf, ros-indigo-trajectory-msgs, ros-indigo-urdf
+Description: This package provides ROS interfaces to the Neuronics Katana 450 arm.
+ It wraps the KNI library for low-level communication with the Katana arm.
