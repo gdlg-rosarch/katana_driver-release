@@ -2,6 +2,11 @@
 Changelog for package katana_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.5 (2016-04-12)
+------------------
+* Fix katana_gazebo_plugins compilation on Saucy
+* Contributors: Martin Günther
+
 1.0.4 (2016-04-11)
 ------------------
 * compile gazebo plugins with c++-11
