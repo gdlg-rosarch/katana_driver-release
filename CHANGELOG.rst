@@ -2,6 +2,9 @@
 Changelog for package katana_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.5 (2016-04-12)
+------------------
+
 1.0.4 (2016-04-11)
 ------------------
 * Rename custom CMake target `media_files`
