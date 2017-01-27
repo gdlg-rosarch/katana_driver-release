@@ -2,11 +2,6 @@
 Changelog for package katana_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.6 (2017-01-27)
-------------------
-* Initial release to Kinetic
-* Contributors: Martin Günther
-
 1.0.5 (2016-04-12)
 ------------------
 * Fix katana_gazebo_plugins compilation on Saucy

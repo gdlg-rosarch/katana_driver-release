@@ -2,12 +2,6 @@
 Changelog for package katana_moveit_ikfast_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.6 (2017-01-27)
-------------------
-* Initial release to Kinetic
-* Build with C++11
-* Contributors: Martin Günther
-
 1.0.5 (2016-04-12)
 ------------------
 
