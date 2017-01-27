@@ -62,7 +62,7 @@ tracks:
     last_version: 1.0.5
     name: katana_driver
     patches: null
-    release_inc: '0'
+    release_inc: '1'
     release_repo_url: git@github.com:uos-gbp/katana_driver-release.git
     release_tag: :{version}
     ros_distro: jade
