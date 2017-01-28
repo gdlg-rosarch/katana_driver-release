@@ -1,0 +1,13 @@
+Source: ros-kinetic-katana
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), libarmadillo-dev, ros-kinetic-actionlib, ros-kinetic-catkin, ros-kinetic-control-msgs, ros-kinetic-geometry-msgs, ros-kinetic-katana-msgs, ros-kinetic-kni, ros-kinetic-moveit-msgs, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs, ros-kinetic-tf, ros-kinetic-trajectory-msgs, ros-kinetic-urdf
+Homepage: http://ros.org/wiki/katana
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-katana
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libarmadillo-dev, ros-kinetic-actionlib, ros-kinetic-control-msgs, ros-kinetic-geometry-msgs, ros-kinetic-katana-msgs, ros-kinetic-kni, ros-kinetic-moveit-msgs, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs, ros-kinetic-tf, ros-kinetic-trajectory-msgs, ros-kinetic-urdf
+Description: This package provides ROS interfaces to the Neuronics Katana 450 arm.
+ It wraps the KNI library for low-level communication with the Katana arm.
