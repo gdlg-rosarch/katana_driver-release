@@ -1,0 +1,12 @@
+Source: ros-kinetic-katana-description
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-convex-decomposition, ros-kinetic-ivcon, ros-kinetic-transmission-interface, ros-kinetic-urdf
+Homepage: http://ros.org/wiki/katana_description
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-katana-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-transmission-interface, ros-kinetic-urdf
+Description: This package contains an URDF description of the Katana arm and all supporting mesh files.
