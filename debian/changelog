@@ -1,0 +1,52 @@
+ros-kinetic-katana-tutorials (1.0.7-0wily) wily; urgency=high
+
+
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Fri, 10 Feb 2017 23:00:00 -0000
+
+ros-kinetic-katana-tutorials (1.0.6-0wily) wily; urgency=high
+
+  * Initial release to Kinetic
+  * Contributors: Martin Günther
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Thu, 26 Jan 2017 23:00:00 -0000
+
+ros-kinetic-katana-tutorials (1.0.5-0wily) wily; urgency=high
+
+
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Mon, 11 Apr 2016 22:00:00 -0000
+
+ros-kinetic-katana-tutorials (1.0.4-0wily) wily; urgency=high
+
+
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Sun, 10 Apr 2016 22:00:00 -0000
+
+ros-kinetic-katana-tutorials (1.0.3-0wily) wily; urgency=high
+
+  * remove dependencies to non-existing cmake targets
+  * Contributors: Michael Görner
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Sun, 28 Jun 2015 22:00:00 -0000
+
+ros-kinetic-katana-tutorials (1.0.2-0wily) wily; urgency=high
+
+
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Tue, 05 May 2015 22:00:00 -0000
+
+ros-kinetic-katana-tutorials (1.0.1-0wily) wily; urgency=high
+
+
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Mon, 16 Mar 2015 23:00:00 -0000
+
+ros-kinetic-katana-tutorials (1.0.0-0wily) wily; urgency=high
+
+  * Initial release to Debian packages
+  * Contributors: Martin Günther, Henning Deeken, Jochen Sprickerhof, Michael Görner
+
+ -- Martin Günther <mguenthe@uni-osnabrueck.de>  Sun, 15 Mar 2015 23:00:00 -0000
+
+
