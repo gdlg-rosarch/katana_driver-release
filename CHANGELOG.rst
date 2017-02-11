@@ -2,6 +2,9 @@
 Changelog for package katana_moveit_ikfast_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.7 (2017-02-11)
+------------------
+
 1.0.6 (2017-01-27)
 ------------------
 * Initial release to Kinetic
