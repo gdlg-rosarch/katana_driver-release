@@ -1,0 +1,12 @@
+Source: ros-lunar-katana-description
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-convex-decomposition, ros-lunar-ivcon, ros-lunar-transmission-interface, ros-lunar-urdf
+Homepage: http://ros.org/wiki/katana_description
+Standards-Version: 3.9.2
+
+Package: ros-lunar-katana-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-transmission-interface, ros-lunar-urdf
+Description: This package contains an URDF description of the Katana arm and all supporting mesh files.
