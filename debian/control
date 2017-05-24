@@ -1,0 +1,13 @@
+Source: ros-lunar-katana-arm-gazebo
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-actionlib, ros-lunar-catkin, ros-lunar-controller-manager, ros-lunar-controller-manager-msgs, ros-lunar-gazebo-ros, ros-lunar-joint-trajectory-controller, ros-lunar-katana-description, ros-lunar-katana-gazebo-plugins, ros-lunar-robot-state-publisher, ros-lunar-roscpp, ros-lunar-std-msgs, ros-lunar-urdf, ros-lunar-xacro
+Homepage: http://ros.org/wiki/katana_arm_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-lunar-katana-arm-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib, ros-lunar-controller-manager, ros-lunar-controller-manager-msgs, ros-lunar-gazebo-ros, ros-lunar-joint-trajectory-controller, ros-lunar-katana-description, ros-lunar-katana-gazebo-plugins, ros-lunar-robot-state-publisher, ros-lunar-roscpp, ros-lunar-std-msgs, ros-lunar-urdf, ros-lunar-xacro
+Description: This package starts a Neuronics Katana robot arm in the Gazebo simulation environment.
+ It is modeled after the pr2_arm_gazebo package by John Hsu.
