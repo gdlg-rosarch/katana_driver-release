@@ -1,0 +1,13 @@
+Source: ros-lunar-katana
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), libarmadillo-dev, ros-lunar-actionlib, ros-lunar-catkin, ros-lunar-control-msgs, ros-lunar-geometry-msgs, ros-lunar-katana-msgs, ros-lunar-kni, ros-lunar-moveit-msgs, ros-lunar-roscpp, ros-lunar-roslib, ros-lunar-sensor-msgs, ros-lunar-std-srvs, ros-lunar-tf, ros-lunar-trajectory-msgs, ros-lunar-urdf
+Homepage: http://ros.org/wiki/katana
+Standards-Version: 3.9.2
+
+Package: ros-lunar-katana
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libarmadillo-dev, ros-lunar-actionlib, ros-lunar-control-msgs, ros-lunar-geometry-msgs, ros-lunar-katana-msgs, ros-lunar-kni, ros-lunar-moveit-msgs, ros-lunar-roscpp, ros-lunar-roslib, ros-lunar-sensor-msgs, ros-lunar-std-srvs, ros-lunar-tf, ros-lunar-trajectory-msgs, ros-lunar-urdf
+Description: This package provides ROS interfaces to the Neuronics Katana 450 arm.
+ It wraps the KNI library for low-level communication with the Katana arm.
