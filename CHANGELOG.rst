@@ -2,6 +2,14 @@
 Changelog for package katana
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.0 (2017-05-26)
+------------------
+* Fix build with gcc6 and C++11
+* Contributors: Jochen Sprickerhof
+
+1.0.8 (2017-05-26)
+------------------
+
 1.0.7 (2017-02-11)
 ------------------
 * KNIKinematics: Remove GetKinematicSolverInfo service
