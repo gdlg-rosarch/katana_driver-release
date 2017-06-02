@@ -1,0 +1,13 @@
+Source: ros-jade-katana
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), libarmadillo-dev, ros-jade-actionlib, ros-jade-catkin, ros-jade-control-msgs, ros-jade-geometry-msgs, ros-jade-katana-msgs, ros-jade-kni, ros-jade-moveit-msgs, ros-jade-roscpp, ros-jade-roslib, ros-jade-sensor-msgs, ros-jade-std-srvs, ros-jade-tf, ros-jade-trajectory-msgs, ros-jade-urdf
+Homepage: http://ros.org/wiki/katana
+Standards-Version: 3.9.2
+
+Package: ros-jade-katana
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libarmadillo-dev, ros-jade-actionlib, ros-jade-control-msgs, ros-jade-geometry-msgs, ros-jade-katana-msgs, ros-jade-kni, ros-jade-moveit-msgs, ros-jade-roscpp, ros-jade-roslib, ros-jade-sensor-msgs, ros-jade-std-srvs, ros-jade-tf, ros-jade-trajectory-msgs, ros-jade-urdf
+Description: This package provides ROS interfaces to the Neuronics Katana 450 arm.
+ It wraps the KNI library for low-level communication with the Katana arm.
