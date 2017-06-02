@@ -2,6 +2,22 @@
 Changelog for package katana
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.2 (2017-06-02)
+------------------
+
+1.1.1 (2017-05-26)
+------------------
+* Compile katana package with c++11
+  This fixes the following warning introduced in adf463b6:
+  katana_driver/katana/include/katana/Katana300.h:64:47: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  const double JOINTS_STOPPED_POS_TOLERANCE = 0.01;
+* Contributors: Martin Günther
+
+1.1.0 (2017-05-26)
+------------------
+* Fix build with gcc6 and C++11
+* Contributors: Jochen Sprickerhof
+
 1.0.8 (2017-05-26)
 ------------------
 
