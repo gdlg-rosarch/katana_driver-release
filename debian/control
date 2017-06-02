@@ -1,0 +1,12 @@
+Source: ros-indigo-katana-tutorials
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-control-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-trajectory-msgs
+Homepage: http://ros.org/wiki/katana_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-indigo-katana-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-control-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-trajectory-msgs
+Description: This package contains test and demo programs for the katana_driver stack.
