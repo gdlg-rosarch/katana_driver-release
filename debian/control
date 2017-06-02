@@ -1,0 +1,13 @@
+Source: ros-kinetic-kni
+Section: misc
+Priority: extra
+Maintainer: Martin Günther <mguenthe@uni-osnabrueck.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-catkin
+Homepage: http://ros.org/wiki/kni
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-kni
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev
+Description: This package provides the third-party KNI (Katana Native Interface) library for Katana robot arms.
+ Instead of using the KNI library directly, the katana package should be used for communication with the Katana arm.
